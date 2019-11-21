@@ -25,6 +25,7 @@ import io.swagger.client.model.Category;
 import io.swagger.client.model.ModelApiResponse;
 import io.swagger.client.model.Pet;
 import io.swagger.client.model.Tag;
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
@@ -38,7 +39,7 @@ import java.util.*;
 
 public class PetApiTest {
     private ApiResponse <Pet> body_response;
-    private final PetApi api = new PetApi();
+    private PetApi api = new PetApi();
     private Pet body = new Pet();
     
     /**
@@ -90,7 +91,6 @@ public class PetApiTest {
         String apiKey = auth.getApiKey();
         api.deletePet(petId, apiKey);
 
-
     }
     
     /**
@@ -106,21 +106,6 @@ public class PetApiTest {
         List<String> status = null;
         List<Pet> response = api.findPetsByStatus(status);
 
-
-    }
-    
-    /**
-     * Finds Pets by tags
-     *
-     * Multiple tags can be provided with comma separated strings. Use tag1, tag2, tag3 for testing.
-     *
-     * @throws ApiException
-     *          if the Api call fails
-     */
-    @Test
-    public void findPetsByTagsTest() throws ApiException {
-        List<String> tags = null;
-        List<Pet> response = api.findPetsByTags(tags);
     }
     
     /**
@@ -128,13 +113,12 @@ public class PetApiTest {
      *
      * Returns a single pet
      *
-     * @throws ApiException
      *          if the Api call fails
      */
     @Rule
     public ExpectedException expectedEx = ExpectedException.none();
     @Then ("^Verify details for (.+)$")
-    public void getPetByIdTest(String Id) throws ApiException {
+    public void getPetByIdTest(String Id)  {
         Long petId = Long.parseLong(Id);
         try {
             body_response = api.getPetByIdWithHttpInfo(petId);
@@ -192,6 +176,15 @@ public class PetApiTest {
         String additionalMetadata = null;
         File file = null;
         ModelApiResponse response = api.uploadFile(petId, additionalMetadata, file);
+    }
+    /**
+     *          if the Api call fails
+     */
+    @After
+    public void deleteVariables() {
+        api= null;
+        body_response = null;
+        body = null;
     }
     
 }
