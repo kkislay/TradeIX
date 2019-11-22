@@ -2,15 +2,15 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "line": 1,
   "name": "Pet tests for creation, updation and deletion.",
-  "description": "Swagger API tests for pet creation and updation",
+  "description": "Swagger API tests for pet creation and updation.",
   "id": "pet-tests-for-creation,-updation-and-deletion.",
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
   "line": 4,
-  "name": "Create a pet with details and verify if it is created with required details",
+  "name": "Create a pet with details and verify if it is created with required details.",
   "description": "",
-  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details",
+  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details.",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
 });
@@ -28,7 +28,7 @@ formatter.examples({
   "line": 7,
   "name": "",
   "description": "",
-  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details;",
+  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details.;",
   "rows": [
     {
       "cells": [
@@ -40,7 +40,7 @@ formatter.examples({
         "PhotoUrls"
       ],
       "line": 8,
-      "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details;;1"
+      "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details.;;1"
     },
     {
       "cells": [
@@ -52,7 +52,7 @@ formatter.examples({
         "www.come;www.245.com"
       ],
       "line": 9,
-      "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details;;2"
+      "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details.;;2"
     },
     {
       "cells": [
@@ -60,11 +60,11 @@ formatter.examples({
         "1230",
         "cat1",
         "t35;t2;t45",
-        "available",
+        "pending",
         "www.come;www.245.com"
       ],
       "line": 10,
-      "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details;;3"
+      "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details.;;3"
     },
     {
       "cells": [
@@ -72,20 +72,20 @@ formatter.examples({
         "1231",
         "cat1",
         "t67654;t2;t45",
-        "available",
+        "sold",
         "www.come;www.245.com"
       ],
       "line": 11,
-      "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details;;4"
+      "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details.;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
   "line": 9,
-  "name": "Create a pet with details and verify if it is created with required details",
+  "name": "Create a pet with details and verify if it is created with required details.",
   "description": "",
-  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details;;2",
+  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details.;;2",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -140,7 +140,7 @@ formatter.match({
   "location": "PetApiTest.addPetTest(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 2371455500,
+  "duration": 2500788900,
   "status": "passed"
 });
 formatter.match({
@@ -153,20 +153,20 @@ formatter.match({
   "location": "PetApiTest.getPetByIdTest(String)"
 });
 formatter.result({
-  "duration": 451132900,
+  "duration": 463615300,
   "status": "passed"
 });
 formatter.scenario({
   "line": 10,
-  "name": "Create a pet with details and verify if it is created with required details",
+  "name": "Create a pet with details and verify if it is created with required details.",
   "description": "",
-  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details;;3",
+  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details.;;3",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
 formatter.step({
   "line": 5,
-  "name": "Create a pet with Name Pet2 Id 1230 Category cat1 Tags t35;t2;t45 Status available PhotoUrls www.come;www.245.com",
+  "name": "Create a pet with Name Pet2 Id 1230 Category cat1 Tags t35;t2;t45 Status pending PhotoUrls www.come;www.245.com",
   "matchedColumns": [
     0,
     1,
@@ -204,18 +204,18 @@ formatter.match({
       "offset": 55
     },
     {
-      "val": "available",
+      "val": "pending",
       "offset": 73
     },
     {
       "val": "www.come;www.245.com",
-      "offset": 93
+      "offset": 91
     }
   ],
   "location": "PetApiTest.addPetTest(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 444985100,
+  "duration": 449419900,
   "status": "passed"
 });
 formatter.match({
@@ -228,20 +228,20 @@ formatter.match({
   "location": "PetApiTest.getPetByIdTest(String)"
 });
 formatter.result({
-  "duration": 443200400,
+  "duration": 445362600,
   "status": "passed"
 });
 formatter.scenario({
   "line": 11,
-  "name": "Create a pet with details and verify if it is created with required details",
+  "name": "Create a pet with details and verify if it is created with required details.",
   "description": "",
-  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details;;4",
+  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details.;;4",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
 formatter.step({
   "line": 5,
-  "name": "Create a pet with Name Pet3 Id 1231 Category cat1 Tags t67654;t2;t45 Status available PhotoUrls www.come;www.245.com",
+  "name": "Create a pet with Name Pet3 Id 1231 Category cat1 Tags t67654;t2;t45 Status sold PhotoUrls www.come;www.245.com",
   "matchedColumns": [
     0,
     1,
@@ -279,18 +279,18 @@ formatter.match({
       "offset": 55
     },
     {
-      "val": "available",
+      "val": "sold",
       "offset": 76
     },
     {
       "val": "www.come;www.245.com",
-      "offset": 96
+      "offset": 91
     }
   ],
   "location": "PetApiTest.addPetTest(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 443076100,
+  "duration": 446257900,
   "status": "passed"
 });
 formatter.match({
@@ -303,14 +303,14 @@ formatter.match({
   "location": "PetApiTest.getPetByIdTest(String)"
 });
 formatter.result({
-  "duration": 445595900,
+  "duration": 446379800,
   "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 13,
-  "name": "Create a pet with details and update the name and verify if the name is updated or not",
+  "name": "Create a pet with details and update the name and verify if the name is updated or not and at the end delete the Pet and verify if it is deleted.",
   "description": "",
-  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-update-the-name-and-verify-if-the-name-is-updated-or-not",
+  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-update-the-name-and-verify-if-the-name-is-updated-or-not-and-at-the-end-delete-the-pet-and-verify-if-it-is-deleted.",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
 });
@@ -343,7 +343,7 @@ formatter.examples({
   "line": 19,
   "name": "",
   "description": "",
-  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-update-the-name-and-verify-if-the-name-is-updated-or-not;",
+  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-update-the-name-and-verify-if-the-name-is-updated-or-not-and-at-the-end-delete-the-pet-and-verify-if-it-is-deleted.;",
   "rows": [
     {
       "cells": [
@@ -355,7 +355,7 @@ formatter.examples({
         "PhotoUrls"
       ],
       "line": 20,
-      "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-update-the-name-and-verify-if-the-name-is-updated-or-not;;1"
+      "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-update-the-name-and-verify-if-the-name-is-updated-or-not-and-at-the-end-delete-the-pet-and-verify-if-it-is-deleted.;;1"
     },
     {
       "cells": [
@@ -367,16 +367,16 @@ formatter.examples({
         "www.come;www.245.com"
       ],
       "line": 21,
-      "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-update-the-name-and-verify-if-the-name-is-updated-or-not;;2"
+      "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-update-the-name-and-verify-if-the-name-is-updated-or-not-and-at-the-end-delete-the-pet-and-verify-if-it-is-deleted.;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
   "line": 21,
-  "name": "Create a pet with details and update the name and verify if the name is updated or not",
+  "name": "Create a pet with details and update the name and verify if the name is updated or not and at the end delete the Pet and verify if it is deleted.",
   "description": "",
-  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-update-the-name-and-verify-if-the-name-is-updated-or-not;;2",
+  "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-update-the-name-and-verify-if-the-name-is-updated-or-not-and-at-the-end-delete-the-pet-and-verify-if-it-is-deleted.;;2",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -449,7 +449,7 @@ formatter.match({
   "location": "PetApiTest.addPetTest(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 448606900,
+  "duration": 447708300,
   "status": "passed"
 });
 formatter.match({
@@ -462,7 +462,7 @@ formatter.match({
   "location": "PetApiTest.updatePetTest(String)"
 });
 formatter.result({
-  "duration": 447431300,
+  "duration": 451310400,
   "status": "passed"
 });
 formatter.match({
@@ -475,7 +475,7 @@ formatter.match({
   "location": "PetApiTest.getPetByIdTest(String)"
 });
 formatter.result({
-  "duration": 447971400,
+  "duration": 447437600,
   "status": "passed"
 });
 formatter.match({
@@ -488,7 +488,7 @@ formatter.match({
   "location": "PetApiTest.deletePetTest(String)"
 });
 formatter.result({
-  "duration": 443410300,
+  "duration": 450614900,
   "status": "passed"
 });
 formatter.match({
@@ -501,7 +501,7 @@ formatter.match({
   "location": "PetApiTest.getPetByIdTest(String)"
 });
 formatter.result({
-  "duration": 450265400,
+  "duration": 457186700,
   "status": "passed"
 });
 });

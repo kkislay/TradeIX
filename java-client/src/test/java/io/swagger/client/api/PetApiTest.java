@@ -15,7 +15,6 @@ package io.swagger.client.api;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import gherkin.lexer.Id;
 import io.swagger.client.ApiException;
 import java.io.File;
 

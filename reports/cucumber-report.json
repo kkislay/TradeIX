@@ -4,15 +4,15 @@
     "elements": [
       {
         "line": 9,
-        "name": "Create a pet with details and verify if it is created with required details",
+        "name": "Create a pet with details and verify if it is created with required details.",
         "description": "",
-        "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details;;2",
+        "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details.;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2371455500,
+              "duration": 2500788900,
               "status": "passed"
             },
             "line": 5,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 451132900,
+              "duration": 463615300,
               "status": "passed"
             },
             "line": 6,
@@ -81,19 +81,19 @@
       },
       {
         "line": 10,
-        "name": "Create a pet with details and verify if it is created with required details",
+        "name": "Create a pet with details and verify if it is created with required details.",
         "description": "",
-        "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details;;3",
+        "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details.;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 444985100,
+              "duration": 449419900,
               "status": "passed"
             },
             "line": 5,
-            "name": "Create a pet with Name Pet2 Id 1230 Category cat1 Tags t35;t2;t45 Status available PhotoUrls www.come;www.245.com",
+            "name": "Create a pet with Name Pet2 Id 1230 Category cat1 Tags t35;t2;t45 Status pending PhotoUrls www.come;www.245.com",
             "match": {
               "arguments": [
                 {
@@ -113,12 +113,12 @@
                   "offset": 55
                 },
                 {
-                  "val": "available",
+                  "val": "pending",
                   "offset": 73
                 },
                 {
                   "val": "www.come;www.245.com",
-                  "offset": 93
+                  "offset": 91
                 }
               ],
               "location": "PetApiTest.addPetTest(String,String,String,String,String,String)"
@@ -135,7 +135,7 @@
           },
           {
             "result": {
-              "duration": 443200400,
+              "duration": 445362600,
               "status": "passed"
             },
             "line": 6,
@@ -158,19 +158,19 @@
       },
       {
         "line": 11,
-        "name": "Create a pet with details and verify if it is created with required details",
+        "name": "Create a pet with details and verify if it is created with required details.",
         "description": "",
-        "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details;;4",
+        "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-verify-if-it-is-created-with-required-details.;;4",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 443076100,
+              "duration": 446257900,
               "status": "passed"
             },
             "line": 5,
-            "name": "Create a pet with Name Pet3 Id 1231 Category cat1 Tags t67654;t2;t45 Status available PhotoUrls www.come;www.245.com",
+            "name": "Create a pet with Name Pet3 Id 1231 Category cat1 Tags t67654;t2;t45 Status sold PhotoUrls www.come;www.245.com",
             "match": {
               "arguments": [
                 {
@@ -190,12 +190,12 @@
                   "offset": 55
                 },
                 {
-                  "val": "available",
+                  "val": "sold",
                   "offset": 76
                 },
                 {
                   "val": "www.come;www.245.com",
-                  "offset": 96
+                  "offset": 91
                 }
               ],
               "location": "PetApiTest.addPetTest(String,String,String,String,String,String)"
@@ -212,7 +212,7 @@
           },
           {
             "result": {
-              "duration": 445595900,
+              "duration": 446379800,
               "status": "passed"
             },
             "line": 6,
@@ -235,15 +235,15 @@
       },
       {
         "line": 21,
-        "name": "Create a pet with details and update the name and verify if the name is updated or not",
+        "name": "Create a pet with details and update the name and verify if the name is updated or not and at the end delete the Pet and verify if it is deleted.",
         "description": "",
-        "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-update-the-name-and-verify-if-the-name-is-updated-or-not;;2",
+        "id": "pet-tests-for-creation,-updation-and-deletion.;create-a-pet-with-details-and-update-the-name-and-verify-if-the-name-is-updated-or-not-and-at-the-end-delete-the-pet-and-verify-if-it-is-deleted.;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 448606900,
+              "duration": 447708300,
               "status": "passed"
             },
             "line": 14,
@@ -289,7 +289,7 @@
           },
           {
             "result": {
-              "duration": 447431300,
+              "duration": 451310400,
               "status": "passed"
             },
             "line": 15,
@@ -307,7 +307,7 @@
           },
           {
             "result": {
-              "duration": 447971400,
+              "duration": 447437600,
               "status": "passed"
             },
             "line": 16,
@@ -325,7 +325,7 @@
           },
           {
             "result": {
-              "duration": 443410300,
+              "duration": 450614900,
               "status": "passed"
             },
             "line": 17,
@@ -346,7 +346,7 @@
           },
           {
             "result": {
-              "duration": 450265400,
+              "duration": 457186700,
               "status": "passed"
             },
             "line": 18,
@@ -369,7 +369,7 @@
       }
     ],
     "name": "Pet tests for creation, updation and deletion.",
-    "description": "Swagger API tests for pet creation and updation",
+    "description": "Swagger API tests for pet creation and updation.",
     "id": "pet-tests-for-creation,-updation-and-deletion.",
     "keyword": "Feature",
     "uri": "Pet.feature"
