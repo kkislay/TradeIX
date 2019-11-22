@@ -177,7 +177,7 @@ public class PetApiTest {
         ModelApiResponse response = api.uploadFile(petId, additionalMetadata, file);
     }
     /**
-     *          if the Api call fails
+     *   Delete the variables used temporarily
      */
     @After
     public void deleteVariables() {
