@@ -1,4 +1,4 @@
-The tests are placed in client.src.test.java.io.swagger.client.api folder
+The tests are placed in java-client.src.test.java.io.swagger.client.api folder
 All the tests are written in PetApiTest.java file.
 To run the tests, I have used cucumberRunner class. Reason is that it is good for reporting. Reports are saved in reports folder. Open index.html to view the reports.
 I have used JUnit, cucumber to run the tests.
